@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    padding: 0;
     font-family: Arial;
     border: border-box;
 }
@@ -336,4 +337,208 @@ ul p{
 
 .copyright{
     padding-top: 5px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .box{
+        height: 320px;
+    }
+
+    .box-image{
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .box h2{
+        font-size: 0.9rem;
+    }
+
+    .box{
+        height: 250px;
+    }
+    
+    .box-image{
+        height: 180px;
+    }
+
+    span{
+        font-size: 0.6rem;
+    }
+
+    .nav-second{
+        font-size: 0.7rem;
+    }
+
+    .add-first{
+        font-size: 0.7rem;
+    }
+
+    .nav-cart i{
+        font-size: 20px;
+    }
+
+    .nav-cart {
+        font-size: 0.8rem;
+    }
+
+    .nav-search {
+        width: 200px;
+    }
+
+    .panel-deals{
+        font-size: 0.8rem;
+    }
+
+    .panel-ops p{
+        font-size: 15px;
+    }
+
+    .hero-message a::before{
+        content: "\A";
+        white-space: pre;
+    }
+}
+
+@media only screen and (max-width: 910px){
+    .hero-message p{
+    font-size: 0.8rem;
+    }
+
+    .box h2{
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .panel-ops p{
+        font-size: 12px;
+        padding: 2px;
+    }
+
+    .panel-all{
+        font-size: 12px;
+        padding: 2px;
+    }
+
+    .hero-message p{
+        font-size: 0.6rem;
+    }
+
+    .logo{
+        width: 80%;
+    }
+
+    .shop-section h2{
+        font-size: 0.65rem;
+    }
+
+    .panel-deals{
+        font-size: 0.65rem;
+        padding: 2px;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .nav-search{
+        max-height: 35%;
+    }
+
+    .search-icon{
+        font-size: 0.8rem;
+    }
+
+    .search-input{
+        font-size: 0.3rem;
+    }
+
+    .add-second{
+        font-size: 0.7rem;
+    }
+
+    .lang-icon, .lang-select{
+        font-size: 0.6rem;
+    }
+
+    .search-select, .add-first, span{
+        font-size: 0.45rem;
+    }
+
+    .nav-second, .nav-cart, .nav-cart i{
+        font-size: 0.6rem;
+    }
+
+    .logo{
+        background-size: contain;
+        background-repeat: no-repeat;
+        align-items: center;
+    }
+
+    .hero-section{
+        height: 150px;
+    }
+
+    .panel-all, .panel-deals, .panel-ops p{
+        font-size: 0.4rem;
+        margin-left: 1px;
+        padding: 0px;
+    }
+
+    .hero-message p{
+        font-size: 0.45rem;
+    }
+
+    .hero-message{
+        height: 30px;
+    }
+
+    .box{
+        flex: 1 50%;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 180px;
+    }
+
+    .box-image{
+        height: 100px;
+        background-size: cover;
+    }
+
+    .box h2{
+        font-size: 0.8rem;
+    }
+
+    .foot-panel2{
+        height: 450px;
+        flex-wrap: wrap;
+        flex: 50%;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .foot-panel2 ul p{
+        font-size: 0.6rem;
+    }
+
+    .foot-panel2 ul a{
+        font-size: 0.5rem;
+    }
+
+    .panel-select, .panel-icon{
+        font-size: 0.8rem;
+    }
+
+    .logo2{
+        height: 30px;
+        width: 80px;
+    }
+
+    .foot-panel3{
+        height: 70px;
+    }
+
+    .pages a, .copyright{
+        font-size: 0.7rem;
+    }
 }
