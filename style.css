@@ -5,6 +5,10 @@
     border: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .navbar{
     height: 60px;
     background-color: #0f1111;
@@ -36,6 +40,10 @@
 }
 
 /*box2*/
+.nav-address{
+    cursor: pointer;
+}
+
 .add-first{
     color: #cccccc;
     font-size: 0.85rem;
@@ -119,6 +127,10 @@ span{
     font-size: 0.8rem;
 }
 
+.nav-signin p, .nav-return p, .nav-cart{
+    cursor: pointer;
+}
+
 .nav-second{
     font-size: 0.95rem;
     font-weight: 700;
@@ -147,12 +159,14 @@ span{
 
 .panel-all{
     padding: 7px;
+    cursor: pointer;
 }
 
 .panel-ops p{
     display: inline;
     margin-left: 12px;
     padding: 7px;
+    cursor: pointer;
 }
 
 .panel-ops{
@@ -164,6 +178,7 @@ span{
     font-size: 0.95rem;
     font-weight: 700;
     padding: 7px;
+    cursor: pointer;
 }
 
 
@@ -260,6 +275,11 @@ footer{
     background-color: #465567e4;
 }
 
+.foot-panel1 a{
+    text-decoration: none;
+    color: white;
+}
+
 
 .foot-panel2{
     background-color: #222f3d;
@@ -282,6 +302,11 @@ ul p{
     font-size: 0.85rem;
     margin-top: 10px;
     color: #dddddd;
+}
+
+.foot-panel2 ul a:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 
